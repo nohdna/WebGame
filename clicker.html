@@ -51,16 +51,21 @@
     </style>
 </head>
 <body>
-
+    
     <h1>🎮 Clicker Game</h1>
     <div class="stats">
-        <p>Score: <span id="score">0</span></p>
-        <p>Click Power: <span id="clickPower">1</span></p>
-        <p>Auto Click: <span id="autoClickPower">0</span> per second</p>
+        <p style="font-size: 24px; color: #00B0F0;">Score : <span id="score">0</span></p>
+        <p>클릭 파워 : <span id="clickPower">1</span></p>
+        <p>자동 클릭 : 초당 <span id="autoClickPower">0</span></p>
     </div>
 
     <div class="container">
-        <button id="clickButton">Click Me!</button>
+        <button id="clickButton" style="color: red;">클릭!</button>
+    </div>
+
+    <div class="upgrades">
+        <button id="upgradeClick">클릭 업그레이드 (비용: 10)</button>
+        <button id="autoClick">자동클릭 구매 (비용: 50)</button>
     </div>
 
     <div class="upgrades">
